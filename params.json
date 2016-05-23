@@ -1,0 +1,6 @@
+{
+  "name": "Arduino Basic Examples",
+  "tagline": "Arduino Basic Examples for www.aprendiendoarduino.com",
+  "body": "|Concepto|Tutorial|Código|\r\n|---|---|---|\r\n|Leer entradas digitales|https://www.arduino.cc/en/Tutorial/DigitalReadSerial||\r\n|Leer entrada digital sin referencia externa|https://www.arduino.cc/en/Tutorial/InputPullupSerial||\r\n|Leer entradas analógicas|https://www.arduino.cc/en/Tutorial/AnalogReadSerial||\r\n|Leer entrada analógica mejorada|https://www.arduino.cc/en/Tutorial/ReadAnalogVoltage||\r\n|Escribir salida analógica|https://www.arduino.cc/en/Tutorial/Fade||\r\n|Escribir salida digital con acción de un botón|https://www.arduino.cc/en/Tutorial/Button||\r\n|Mejora de botón|https://www.arduino.cc/en/Tutorial/Debounce||\r\n|Contar pulsaciones Botón|https://www.arduino.cc/en/Tutorial/StateChangeDetection||",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
