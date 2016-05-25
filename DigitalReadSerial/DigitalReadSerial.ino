@@ -18,11 +18,14 @@ void setup() {
 
 // the loop routine runs over and over again forever:
 void loop() {
+  unsigned long tiempo = micros();
   // read the input pin:
   int buttonState = digitalRead(pushButton);
   // print out the state of the button:
   Serial.println(buttonState);
   delay(1);        // delay in between reads for stability
+  Serial.print("Tiempo de ejecución de loop (microsegundos):");
+  Serial.println(tiempo-micros());
 }
 
 

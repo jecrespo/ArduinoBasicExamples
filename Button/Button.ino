@@ -48,14 +48,13 @@ void loop() {
   int buttonState = digitalRead(buttonPin);
   if (lastbuttonState != buttonState) {
     if (buttonState == 1) { //Detecto pulsación, flanco ascendente
-      lastbuttonState = 1;
       ledState = !ledState;
       digitalWrite(ledPin, ledState);
       if (ledState)
         Serial.println("Led Encendido");
       else
         Serial.println("Led Apagado");
-    } else
-      lastbuttonState = 0;
+    }
   }
+  lastbuttonState = buttonState;
 }
